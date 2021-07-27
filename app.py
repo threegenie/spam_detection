@@ -22,7 +22,8 @@ def predict():
 
 	corpus = df_x
 	cv = CountVectorizer()
-	X = cv.fit_transform(corpus) # Fit the Data
+	X = cv.fit_transform(corpus)
+
 	from sklearn.model_selection import train_test_split
 	X_train, X_test, y_train, y_test = train_test_split(X, df_y, test_size=0.33, random_state=42)
 
@@ -37,7 +38,6 @@ def predict():
 		vect = cv.transform(data).toarray()
 		my_prediction = clf.predict(vect)
 	return render_template('result.html',prediction = my_prediction)
-
 
 
 if __name__ == '__main__':
