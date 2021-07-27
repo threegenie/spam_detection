@@ -5,3 +5,4 @@ Youtube Spam Comment Detection
 
 - Used data : [Data Link](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection)
 - Used Stack : Flask, HTML/CSS, Pandas, Numpy, Sklearn, MultinomialNB(Naive Bayes Classifier), Pickle
+- Project PPT : [PPT Link](https://github.com/threegenie/spam_detection/blob/main/Project%20PPT.md)
