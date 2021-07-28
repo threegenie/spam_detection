@@ -12,5 +12,5 @@ How to Use
 2. conda create --name env
 3. conda activate env
 4. conda install python=3.8
-5. pip install Flask
+5. python -m pip install -r requirements.txt
 6. python app.py
